@@ -31,21 +31,19 @@ let tags = {
 const defaultMenu = {
   before: `
 ╭─「 %me 」
-│ Hai, %name!
+│ Hola, %name!
 │
 │ Tersisa *%limit Limit*
 │ Role *%role*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
+│ Level *%level (%exp / %maxexp)* [%xp4levelup otra vez para subir de nivel]
 │ %totalexp XP in Total
 │ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
+│ Fecha: *%week %weton, %date*
+│ Fecha Spain: *%dateSpain*
+│ Tiempo: *%time*
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
